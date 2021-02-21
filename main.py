@@ -34,10 +34,10 @@ def decorator(function_to_decorate):
 
 if __name__ == '__main__':
     @decorator
-    def function(*args, **kwargs):
+    def test(*args, **kwargs):
         return "GOOD JOB"
 
-    function('arg1', 'arg2', 'arg3', format = 'YAML', a = 1, b = 2, c = 3)
+    test('arg1', 'arg2', 'arg3', format = 'YAML', a = 1, b = 2, c = 3)
 
 
 
