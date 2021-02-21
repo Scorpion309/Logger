@@ -1,0 +1,142 @@
+JSON: 
+{
+    "timestamp": "2021-02-08T20:34:49.615767",
+    "callable": "function",
+    "args": [
+        "arg1",
+        "arg2",
+        "arg3"
+    ],
+    "kwargs": {
+        "a": 1,
+        "b": 2,
+        "c": 3
+    },
+    "result": "GOOD JOB"
+}
+YAML: 
+- timestamp:
+  - '2021-02-08T20:35:31.223903'
+- callable: function
+- args: !!python/tuple
+  - arg1
+  - arg2
+  - arg3
+- kwargs:
+    a: 1
+    b: 2
+    c: 3
+- result: GOOD JOB
+
+YAML: 
+- timestamp:
+  - '2021-02-13T09:41:04.737258'
+- callable: function
+- args: !!python/tuple
+  - arg1
+  - arg2
+  - arg3
+- kwargs:
+    a: 1
+    b: 2
+    c: 3
+- result: GOOD JOB
+
+JSON: 
+{
+    "timestamp": "2021-02-13T09:43:04.041474",
+    "callable": "function",
+    "args": [
+        "arg4",
+        "arg5",
+        "arg6"
+    ],
+    "kwargs": {
+        "a": 4,
+        "b": 5,
+        "c": 6
+    },
+    "result": "Function from task.py"
+}
+JSON: 
+{
+    "timestamp": "2021-02-13T09:51:02.209416",
+    "callable": "function",
+    "args": [
+        "arg4",
+        "arg5",
+        "arg6"
+    ],
+    "kwargs": {
+        "a": 4,
+        "b": 5,
+        "c": 6
+    },
+    "result": "Function from task.py"
+}
+YAML: 
+- timestamp:
+  - '2021-02-13T10:41:21.784523'
+- callable: function
+- args: !!python/tuple
+  - arg1
+  - arg2
+  - arg3
+- kwargs:
+    a: 1
+    b: 2
+    c: 3
+- result: GOOD JOB
+
+JSON: 
+{
+    "timestamp": "2021-02-13T10:42:31.676522",
+    "callable": "function",
+    "args": [
+        "arg4",
+        "arg5",
+        "arg6"
+    ],
+    "kwargs": {
+        "a": 4,
+        "b": 5,
+        "c": 6
+    },
+    "result": {
+        "a": 4,
+        "b": 5,
+        "c": 6
+    }
+}
+JSON: 
+{
+    "timestamp": "2021-02-13T10:45:23.586423",
+    "callable": "function",
+    "args": [
+        "arg4",
+        "arg5",
+        "arg6"
+    ],
+    "kwargs": {
+        "a": 4,
+        "b": 5,
+        "c": 6
+    },
+    "result": 15
+}
+JSON: 
+{
+    "timestamp": "2021-02-13T10:45:55.459229",
+    "callable": "function_from_task",
+    "args": [
+        "arg4",
+        "arg5",
+        "arg6"
+    ],
+    "kwargs": {
+        "a": 4,
+        "b": 5,
+        "c": 6
+    },
+    "result": 15
+}
